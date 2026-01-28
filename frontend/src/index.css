@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 11 11 15;
+    --foreground: 250 250 250;
+    --card: 15 16 22;
+    --card-foreground: 250 250 250;
+    --popover: 15 16 22;
+    --popover-foreground: 250 250 250;
+    --primary: 124 92 255;
+    --primary-foreground: 250 250 250;
+    --secondary: 30 30 40;
+    --secondary-foreground: 250 250 250;
+    --muted: 30 30 40;
+    --muted-foreground: 139 144 160;
+    --accent: 30 30 40;
+    --accent-foreground: 250 250 250;
+    --destructive: 239 68 68;
+    --destructive-foreground: 250 250 250;
+    --border: 30 30 40;
+    --input: 30 30 40;
+    --ring: 124 92 255;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 11 11 15;
+    --foreground: 250 250 250;
+    --card: 15 16 22;
+    --card-foreground: 250 250 250;
+    --popover: 15 16 22;
+    --popover-foreground: 250 250 250;
+    --primary: 124 92 255;
+    --primary-foreground: 250 250 250;
+    --secondary: 30 30 40;
+    --secondary-foreground: 250 250 250;
+    --muted: 30 30 40;
+    --muted-foreground: 139 144 160;
+    --accent: 30 30 40;
+    --accent-foreground: 250 250 250;
+    --destructive: 239 68 68;
+    --destructive-foreground: 250 250 250;
+    --border: 30 30 40;
+    --input: 30 30 40;
+    --ring: 124 92 255;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .animate-shimmer {
+    animation: shimmer 2s infinite;
+  }
+  
+  .animate-beam-1 {
+    animation: beam-1 3s ease-in-out infinite;
+  }
+  
+  .animate-beam-2 {
+    animation: beam-2 3s ease-in-out infinite;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+

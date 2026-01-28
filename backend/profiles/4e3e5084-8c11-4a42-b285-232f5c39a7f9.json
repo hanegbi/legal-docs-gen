@@ -1,0 +1,107 @@
+{
+  "profile_id": "4e3e5084-8c11-4a42-b285-232f5c39a7f9",
+  "profile_name": "Test Company Profile",
+  "organization": {
+    "company_legal_name": "Test Company Inc.",
+    "registered_address": "123 Main Street, San Francisco, CA 94105",
+    "privacy_email": "privacy@testcompany.com",
+    "legal_notices_email": "legal@testcompany.com",
+    "jurisdictions_served": [
+      "US",
+      "EU"
+    ],
+    "languages": null,
+    "effective_date": "2025-10-27",
+    "version_label": null,
+    "privacy_policy_url": null,
+    "terms_url": null
+  },
+  "product": {
+    "product_name": "Test App",
+    "platforms": null,
+    "service_type": null,
+    "has_beta_features": false,
+    "beta_note": null
+  },
+  "audience": {
+    "minimum_age": 13,
+    "eea_uk_override_16": false,
+    "allow_under_13_with_parental_consent": false,
+    "parental_consent_flow_description": null,
+    "allow_organizational_use": true
+  },
+  "data_categories": [
+    {
+      "category": "Account identifiers",
+      "source": "user",
+      "purposes": [
+        "account",
+        "security"
+      ],
+      "retention": "2 years",
+      "shared_with": [
+        "processors"
+      ]
+    },
+    {
+      "category": "Contact information",
+      "source": "user",
+      "purposes": [
+        "account",
+        "communications"
+      ],
+      "retention": "2 years",
+      "shared_with": [
+        "processors"
+      ]
+    }
+  ],
+  "vendors": null,
+  "tracking": null,
+  "legal_bases": null,
+  "us_state_privacy": null,
+  "international_transfers": null,
+  "security": null,
+  "user_rights": null,
+  "acceptable_use": {
+    "prohibited_acts": [
+      "Unlawful or illegal activities",
+      "Harassment, abuse, or threatening conduct"
+    ],
+    "ugc_enabled": false,
+    "ugc_license_to_service": null,
+    "moderation_appeals": null,
+    "dmca_contact": null
+  },
+  "intellectual_property": {
+    "service_ip_retained_by_company": true,
+    "end_user_license_text": null,
+    "feedback_license": null,
+    "open_source_notices_url": null
+  },
+  "billing": null,
+  "changes_policy": {
+    "change_notice_method": [
+      "email"
+    ],
+    "lead_time_days": null
+  },
+  "disclaimers": {
+    "as_is_disclaimer": true,
+    "liability_cap_description": "fees paid in last 12 months",
+    "exclude_indirect_consequential": true,
+    "carve_outs": [
+      "fraud",
+      "willful misconduct",
+      "non-excludable statutory rights"
+    ],
+    "user_indemnity_enabled": true
+  },
+  "dispute_resolution": {
+    "dispute_path": "courts",
+    "venue": "Cook County, Illinois",
+    "has_class_action_waiver": false,
+    "has_small_claims_carveout": false
+  },
+  "export_controls": null
+}

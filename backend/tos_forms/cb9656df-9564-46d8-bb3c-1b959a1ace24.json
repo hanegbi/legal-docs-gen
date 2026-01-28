@@ -1,0 +1,45 @@
+{
+  "form": {
+    "product_name": "Test Productdsds",
+    "product_description": "dsds",
+    "service_type": "SaaS",
+    "platforms": [
+      "Android"
+    ],
+    "has_beta_features": false,
+    "beta_note": "",
+    "minimum_age": 13,
+    "allow_under_13_with_parental_consent": false,
+    "allow_organizational_use": true,
+    "data_categories": [
+      "Device information"
+    ],
+    "prohibited_acts": [
+      "Infringement of intellectual property rights"
+    ],
+    "ugc_enabled": false,
+    "ugc_license_to_service": "",
+    "moderation_appeals": "",
+    "dmca_contact": "",
+    "service_ip_retained_by_company": true,
+    "user_content_license": null,
+    "change_notice_methods": [
+      "email",
+      "banner"
+    ],
+    "lead_time_days": null,
+    "as_is_disclaimer": true,
+    "liability_cap_description": "fees paid in last 12 months",
+    "exclude_indirect_consequential": true,
+    "carve_outs": [
+      "fraud"
+    ],
+    "user_indemnity_enabled": true,
+    "dispute_path": "arbitration",
+    "venue": "Test City",
+    "has_class_action_waiver": false,
+    "has_small_claims_carveout": false
+  },
+  "profile_id": "cb9656df-9564-46d8-bb3c-1b959a1ace24",
+  "created_at": "2025-10-20T18:26:10.309671"
+}
